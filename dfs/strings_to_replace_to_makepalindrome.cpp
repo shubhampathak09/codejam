@@ -12,7 +12,7 @@ int main()
 {
 	
 	string s1="geeks";
-	
+	// skeks
 	int n=s1.length();
     
 	int count=0;
