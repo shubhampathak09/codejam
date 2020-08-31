@@ -1,5 +1,8 @@
 // MERGE K SORTED ARRAYS
 
+// solve this more efficiently
+// observe the sub problems'
+
 #include<bits/stdc++.h>
 using namespace std;
 

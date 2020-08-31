@@ -12,7 +12,7 @@ struct node
 	node(string s)
 	{
 		
-		val=s;
+		val=s;//n
 	//	left=NULL;
 	//	right=NULL;
 		
@@ -110,7 +110,7 @@ int eval(node* root)
     // leaf node i.e, an integer  
     if (!root->left && !root->right)  
         return toint(root->val);  
-  
+
     // Evaluate left subtree  
     int l_val = eval(root->left);  
   

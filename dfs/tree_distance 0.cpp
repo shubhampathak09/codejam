@@ -61,6 +61,12 @@ void tree_distance()
 int main()
 {
 	
+	// NOte if in tree it is asked to find shortest dsistance from ine vertex to another is standarad graph problem
+	// to find shortest distance using dijkstras for weighted graph and 0/1 bfs for unweighted bfs for graph
+	// pls read the question carefully
+	// happy coding
+	
+	
 	tree_distance();
 	
 }
