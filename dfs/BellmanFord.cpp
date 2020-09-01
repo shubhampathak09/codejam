@@ -1,4 +1,5 @@
-// BellmanFord
+// BellmanFord Algorithm to detect negetive cycle in graph
+// implementation
 
 #include<bits/stdc++.h>
 using namespace std;
@@ -106,7 +107,7 @@ int main()
 	if(checkcyle(graph1,src))
 	cout<<"Negetive Cycle Presnt in graph..";
 	else
-	cout<<"Negetive Cycle Not Presnet in graph";
+	cout<<"Negetive Cycle Not Present in graph";
 	 
 }
 
