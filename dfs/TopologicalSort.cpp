@@ -44,5 +44,5 @@ int main()
 		cout<<s.top();
 		s.pop();
 	}
-	
+	// imp concept pass by ref , called function variable changes made inside the function to variable has an effect on it
 }

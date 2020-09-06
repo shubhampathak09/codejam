@@ -41,7 +41,7 @@ cout<<k<<endl;  //2
 
 for(int i=k;i<k+m;i++)
 cout<<s[i]<<endl;
-cout<<s.substr(k+1,k+m-1);
+//cout<<s.substr(k+1,k+m-1);
 	
 }// happy prefix
 
