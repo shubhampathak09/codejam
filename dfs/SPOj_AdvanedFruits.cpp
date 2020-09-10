@@ -74,8 +74,8 @@ string print_seq(string s1,string s2)
 int main()
 {
 	
-	string s1="ananas";
-	string s2="banana";
+	string s1="peach";
+	string s2="pear";
 	
 	cout<<print_seq(s1,s2);
 	

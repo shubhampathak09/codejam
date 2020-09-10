@@ -18,15 +18,20 @@ int main()
  
 //cout<<((('V'+13) -'Z')%('Z'-'A')));
 
-
-map<char,int>alphabet;
-
+ //int a[] 1-26
+ // char b[] A-Z
 for(int i=0;i<26;i++)
-alphabet['A'+i]=i+1;
+alphabet[i+1]='A'+i;
+//
+//for(int i=0;i<26;i++)
+//cout<<alphabet['A'+i]<<" ";
 
-for(int i=0;i<26;i++)
-cout<<alphabet['A'+i]<<" ";
 
+char xy='x'+17
+if(m.find(int(xy))!=m.end())
+cout<<m[xy];
+else
+char pro=m[char((xy - 'z')%26)];
 
-	
+cout<<pro;	
 }

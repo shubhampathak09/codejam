@@ -28,7 +28,7 @@ int main()
     cout<<endl;
 	
 		
-	cout<<m2[newmap];
+	cout<<m2[newmap];  //k
 
   
    

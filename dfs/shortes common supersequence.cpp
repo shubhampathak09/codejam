@@ -58,7 +58,7 @@ int lcs(string s1,string s2)
 	}
 	
 	reverse(temp.begin(),temp.end());
-	cout<<temp<<temp[1];
+	cout<<temp;
 	cout<<endl;
 	//cout<<1;
 	return dp[n][m];

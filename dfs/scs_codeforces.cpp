@@ -80,7 +80,7 @@ int scs(string s1,string s2)
 int main()
 {
 	
-	string s1="apple";
-	string s2="peach";
+	string s1="rat";
+	string s2="cattle";
 	cout<<scs(s1,s2);
 }

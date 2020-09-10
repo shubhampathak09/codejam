@@ -67,7 +67,7 @@ int main()
 	
 	int a=6;
 	int b=3,c=6 ;
-	if(a==b==c)
+	if(a==b==c)  // a==b && b==c
 	cout<<"Yes";
 	else
 	cout<<"No";
