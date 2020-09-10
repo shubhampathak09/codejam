@@ -3,6 +3,8 @@ using namespace std;
 
 // even arrays 0 0 0 1 1 1 0 1
 
+
+
 void solve()
 {
 	int n;
@@ -34,7 +36,7 @@ for(int i=0;i<n;i+=4)
 	   
 	}
 	
-	if(a[i]+a[i+1]==2)
+	if(a[i]+a[i +1]==2)
 	{
 		b.push_back(1);
 		b.push_back(1);
