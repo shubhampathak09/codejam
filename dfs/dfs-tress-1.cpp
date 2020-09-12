@@ -92,12 +92,20 @@ int n = 11;
 	for(int i=1;i<=10;i++)
 	cout<<out[i];
 	
-	for(int i=0;i<n;i++)
+	vector<int>longest_path(n+1);
+	for(int i=1;i<=n;i++)
 	{
 		
-		cout<<i<<"....."<<max(in[i],out[i])<<endl;
+		//cout<<i<<"....."<<max(in[i],out[i])<<endl;
+		longest_path[i]=max(in[i],out[i]);
 		
 	}
+	
+	// longest path printing
+	
+	cout<<"\n";
+	for(int i=1;i<=n;i++)
+	cout<<longest_path[i]<<" ";
 }
 
  
