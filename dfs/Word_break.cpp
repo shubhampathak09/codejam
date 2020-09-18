@@ -17,7 +17,7 @@ bool checkwordbreak(string s1,set<string>s)
 	
 	if(s1=="")
 	return true;
-	
+
 	for(int i=1;i<=s1.length();i++)
 	{
 		//cout<<"here";
@@ -51,6 +51,6 @@ int main()
 //	cout<<check("geeks",se);
 //cout<<check("geek",se);
 //cout<<check("geeks",se);
-cout<<checkwordbreak("geekgeeks",se);
+cout<<checkwordbreak("geekgeek",se);
 
 }

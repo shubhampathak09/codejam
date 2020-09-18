@@ -1,0 +1,232 @@
+[33mcommit 7c3e7eb0786167530796cf30c09f753ae9a088e4[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: shubham <shubham.pathak@rediffmail.com>
+Date:   Wed Sep 16 17:54:32 2020 +0530
+
+    word break recursion
+
+[33mcommit 5a11f38e51f3902871e4063a1f48d423b928a224[m
+Author: shubham <shubham.pathak@rediffmail.com>
+Date:   Tue Sep 15 21:51:17 2020 +0530
+
+    Bfs as function of time:p
+
+[33mcommit 2a63dcad7c17c89a7ca8f78e57905fe7470590bb[m
+Author: shubham <shubham.pathak@rediffmail.com>
+Date:   Mon Sep 14 22:50:14 2020 +0530
+
+    new codes
+
+[33mcommit af9e3e862624cf3f00962be29c81dc951ca531ef[m
+Author: shubham <shubham.pathak@rediffmail.com>
+Date:   Mon Sep 14 19:28:25 2020 +0530
+
+    new codes
+
+[33mcommit 49f7e34cf3fe6c679ca8e3c8f500b716a2e6aaee[m
+Author: shubham <shubham.pathak@rediffmail.com>
+Date:   Sun Sep 13 20:36:29 2020 +0530
+
+    codechef aug
+
+[33mcommit 4ab6ad30636658e0323ce1776aa3a5e4a7871635[m
+Author: shubham <shubham.pathak@rediffmail.com>
+Date:   Sun Sep 13 00:17:23 2020 +0530
+
+    Segement-Trees-1
+
+[33mcommit 07c1bf1f4c5d541adce0d5f2f185aceb0d13b29c[m
+Author: shubham <shubham.pathak@rediffmail.com>
+Date:   Sat Sep 12 22:18:16 2020 +0530
+
+    dp-trees
+
+[33mcommit ebe3aae218e0d4cd6525c3da68e9d5c5f4c2aa96[m
+Author: shubham <shubham.pathak@rediffmail.com>
+Date:   Sat Sep 12 16:13:57 2020 +0530
+
+    Palindromic Partiton variation of MCM
+
+[33mcommit bc6649e4adf1c167c05a8bdf998307bad793cf49[m
+Author: shubham <shubham.pathak@rediffmail.com>
+Date:   Sat Sep 12 10:48:36 2020 +0530
+
+    MCM problems
+
+[33mcommit da1ef7183aeb98ad1751351ad65133a4706d59ad[m
+Author: shubham <shubham.pathak@rediffmail.com>
+Date:   Fri Sep 11 20:38:12 2020 +0530
+
+    heapsort
+
+[33mcommit d7aa8b90312ba3b005f34bd83cf95e2a6a82c71d[m
+Author: shubham <shubham.pathak@rediffmail.com>
+Date:   Thu Sep 10 20:43:50 2020 +0530
+
+    bit mask
+
+[33mcommit c5a9360a854300a14fc2dff28f2d90d3449e0225[m
+Author: shubham <shubham.pathak@rediffmail.com>
+Date:   Thu Sep 10 20:09:35 2020 +0530
+
+    Spoj lcs
+
+[33mcommit 49fe4bf3639546d28d33d9318ad7c170922a3ee2[m
+Author: shubham <shubham.pathak@rediffmail.com>
+Date:   Wed Sep 9 21:41:27 2020 +0530
+
+    LCS_spoj
+
+[33mcommit df91557d7a0ac13123bab794148985193db77bf4[m
+Author: shubham <shubham.pathak@rediffmail.com>
+Date:   Tue Sep 8 23:00:23 2020 +0530
+
+    lcs_variations
+
+[33mcommit 69d8f1b8c022e6cfa552b8394706276ca79a7edd[m
+Author: shubham <shubham.pathak@rediffmail.com>
+Date:   Mon Sep 7 20:44:40 2020 +0530
+
+    greedy
+
+[33mcommit bf7a1ea03afe0ca7da126823333c455f0e0a9368[m
+Author: shubham <shubham.pathak@rediffmail.com>
+Date:   Sun Sep 6 22:29:09 2020 +0530
+
+    greedy
+
+[33mcommit 4075d58c2f07529507a4995d56d26f548530df01[m
+Merge: 449409e de0eaef
+Author: shubham <shubham.pathak@rediffmail.com>
+Date:   Sat Sep 5 22:03:12 2020 +0530
+
+    Merge branch 'master' of https://github.com/shubhampathak09/codejam
+
+[33mcommit 449409e8f40b4d7a49f1228f4441ec6d95c0641a[m
+Author: shubham <shubham.pathak@rediffmail.com>
+Date:   Sat Sep 5 21:16:54 2020 +0530
+
+    lexicograph topologic sort
+
+[33mcommit de0eaef5c99d5e04cf04669b2f75c1522c575ba0[m
+Author: shubham pathak <35962498+shubhampathak09@users.noreply.github.com>
+Date:   Sat Sep 5 20:37:35 2020 +0530
+
+    Update README.md
+
+[33mcommit 9b325ec9e1bc9ac8d0b5116ca7c5166e171b0503[m
+Author: shubham <shubham.pathak@rediffmail.com>
+Date:   Sat Sep 5 20:35:11 2020 +0530
+
+    Directed acyclic graph algorithms
+
+[33mcommit 4e9e1f22583a092e1b8a283aaa5622489cfc705f[m
+Author: shubham <shubham.pathak@rediffmail.com>
+Date:   Fri Sep 4 21:05:54 2020 +0530
+
+    z algo
+
+[33mcommit 2a855a6f260c0cc78541d4f7546c97ff563ea0be[m
+Author: shubham <shubham.pathak@rediffmail.com>
+Date:   Fri Sep 4 11:30:33 2020 +0530
+
+    Spoj Sociallines Floyd warshall modified implementation
+
+[33mcommit 46259059042c97357141392354516f8e487f9c79[m
+Author: shubham <shubham.pathak@rediffmail.com>
+Date:   Thu Sep 3 15:18:29 2020 +0530
+
+    z algo+divide + inoi
+
+[33mcommit 2773155977bd7b2b947ba133aef9868680f6d500[m
+Author: shubham <shubham.pathak@rediffmail.com>
+Date:   Wed Sep 2 22:46:53 2020 +0530
+
+    subarraysubsum-dp
+
+[33mcommit c9a21849779ceca876cdcde649e93900149cb45a[m
+Author: shubham <shubham.pathak@rediffmail.com>
+Date:   Tue Sep 1 20:48:57 2020 +0530
+
+    prac
+
+[33mcommit 392a9d66bbf3ed4f7bd26e8be63a6431b4a2cb48[m
+Author: shubham <shubham.pathak@rediffmail.com>
+Date:   Tue Sep 1 18:21:50 2020 +0530
+
+    dfs start time+ bellman+min cost matrix
+
+[33mcommit 80e67b53f8d66bfa6716507b5fc0281e260e5b73[m
+Author: shubham <shubham.pathak@rediffmail.com>
+Date:   Mon Aug 31 23:02:35 2020 +0530
+
+    Tree distances part 1
+
+[33mcommit 858c8be1ff83e4f08835d113fd7ca26347fd0599[m
+Author: shubham <shubham.pathak@rediffmail.com>
+Date:   Sun Aug 30 23:02:15 2020 +0530
+
+    commit2
+
+[33mcommit f6750df734c0319f336226e515ccb31e936a14e7[m
+Author: shubham <shubham.pathak@rediffmail.com>
+Date:   Sat Aug 29 20:50:45 2020 +0530
+
+    new commits
+
+[33mcommit c04e995365c7f0d12bf0560a1b764861e380ca65[m
+Author: shubham <shubham.pathak@rediffmail.com>
+Date:   Wed Aug 26 22:12:11 2020 +0530
+
+    expression tree + 2 incorrect submissions:p
+
+[33mcommit 755dd2a1d293ee91e90a619d3fce253b7cb16460[m
+Author: shubham <shubham.pathak@rediffmail.com>
+Date:   Tue Aug 25 22:58:43 2020 +0530
+
+    graph problems
+
+[33mcommit 19a47028e747142445612343439844dddc31f324[m
+Author: shubham <shubham.pathak@rediffmail.com>
+Date:   Sat Aug 22 21:45:09 2020 +0530
+
+    Seek to win
+
+[33mcommit 8e1344017b2a72292776dd147b42aaeaf3f03f1b[m
+Author: shubham <shubham.pathak@rediffmail.com>
+Date:   Fri Aug 21 22:21:41 2020 +0530
+
+    Daily Problems
+
+[33mcommit 44299d1f4947b0014ce610508dcf6051821c5064[m
+Author: shubham <shubham.pathak@rediffmail.com>
+Date:   Mon Aug 17 23:33:28 2020 +0530
+
+    Challenges
+
+[33mcommit 095f17b5f74345fb6a9c3fbdb1b67607795b34c9[m
+Author: shubham <shubham.pathak@rediffmail.com>
+Date:   Sat Aug 15 18:21:17 2020 +0530
+
+    Problems
+
+[33mcommit 48bc545fbbef5009b029ff5e4a28539b97c2195c[m
+Merge: cd7bccd e612bdd
+Author: shubham <shubham.pathak@rediffmail.com>
+Date:   Sun Jul 26 11:56:39 2020 +0530
+
+    seems there is branch before and ui want to update the same as it is
+    empty
+    
+    erge remote-tracking branch 'origin/master'
+
+[33mcommit cd7bccdb0f989359e3d0a0e24d20612ad907cca7[m
+Author: shubham <shubham.pathak@rediffmail.com>
+Date:   Sun Jul 26 11:49:25 2020 +0530
+
+    Codechef flippy and subway problem dijksrtras algorithm with slight modification
+
+[33mcommit e612bdd1fae23817fbe72ae93317f82a365b5482[m
+Author: shubham.pathak <shubham.pathak@cgi.com>
+Date:   Fri Feb 1 20:02:15 2019 +0530
+
+    first commit
