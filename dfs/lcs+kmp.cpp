@@ -1,4 +1,8 @@
 // lcs + kmp
+
+// lucky common subseuquences
+// find lcs without virus as substring
+
 #include <bits/stdc++.h>
 using namespace std;
 const int MAXS = 100 + 2;

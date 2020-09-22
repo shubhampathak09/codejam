@@ -22,6 +22,7 @@ for(int i=1;i<n;i++)
 {
 	string sub=s.substr(0,i+1);
 	cout<<count++<<"-"<<sub<<endl;
+	int m=sub.length();
 	
 	
 	

@@ -1,6 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// brute force approach takrs o(n2) time because of 2 nested loops
+
 
 int count_largest_sumzero(int a[],int n)
 {

@@ -15,8 +15,8 @@ int countlen(int a[],int n)
 		if(a[i]==0&&max_len==0)
 		max_len=1;
 		
-	//	if(sum==0)
-	//	max_len=i+1;
+		if(sum==0)
+		max_len=i+1;
 		
 		if(mapres.find(sum)!=mapres.end())
 		{
