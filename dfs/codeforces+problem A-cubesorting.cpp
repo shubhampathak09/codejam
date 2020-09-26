@@ -5,13 +5,21 @@ using namespace std;
 
 int main()
 {
+    int t;
+	cin>>t;
 	
+	while(t--)
+	{
+	
+		
 	int n;
 	cin>>n;
 	vector<int>a(n);
 	for(int i=0;i<n;i++)
 	cin>>a[i];
+   	
 	
+		
    // check if it possoble to sort in n*n-1/2 -1 atmost swaps or not
    
    // 5 6  1  3
@@ -31,4 +39,6 @@ int main()
    }
    if(flagset==1)
    cout<<"No";
+   
+}
 }
