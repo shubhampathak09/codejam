@@ -48,4 +48,19 @@ word break problem
 permutation generator *****
 MIn cost path in matrix
 -------------------------------------------------------------------------------------------------------------------
-
++ above
+PLan for october
+-LISP complete understand s expresssions
+- deep learning book read and make motes
+Programming
+Bit Magic / Revist dp:-av ,and tr
+codeforces 5 radom blogs
+binary search problems (iint site)
+complete java:=durga/udemy
+random blogs
+https://codeforces.com/blog/entry/8903
+https://codeforces.com/blog/entry/3107
+https://codeforces.com/blog/entry/67776
+https://codeforces.com/blog/entry/8219
+https://codeforces.com/blog/entry/47932
+-------------------------------------------------------------------------------------------------------------------
