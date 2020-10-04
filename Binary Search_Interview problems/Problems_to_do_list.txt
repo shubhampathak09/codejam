@@ -63,4 +63,5 @@ https://codeforces.com/blog/entry/3107
 https://codeforces.com/blog/entry/67776
 https://codeforces.com/blog/entry/8219
 https://codeforces.com/blog/entry/47932
+longest common subsequence lcs
 -------------------------------------------------------------------------------------------------------------------
