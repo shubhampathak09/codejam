@@ -85,10 +85,16 @@ void algo()
 		
 	}
 	
+	if(ans.size()!=n)
+	cout<<"No topsort exisits";
+	else
+	{
+	
 	for(auto x:ans)
     {
     	cout<<x<<" ";
 	}
+}
 }
 
 int main()

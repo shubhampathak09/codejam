@@ -182,6 +182,6 @@ int32_t main()
  
 	for(int i = 0; i < k; ++i)
 	{
-		cout << dist[n][i] << " ";
+		cout << dist[n-1][i] << " ";
 	}
 }
