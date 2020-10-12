@@ -11,13 +11,14 @@ struct trie
 	trie()
 	{
 		memset(children,0,sizeof(children));
+		isend=false;
 	}
 };
 
 
-struct trie*root;
+//struct trie*root;
 
-void insert(string st)
+void insert(struct trie*root,string st)
 {
 	struct trie*curr=root;
 	for(auto ch:st)
@@ -32,7 +33,7 @@ void insert(string st)
 	curr->isend=true;
 }
 
-bool found(string st)
+bool found(struct trie*root,string st)
 {
 	struct trie*curr=root;
 	for(auto ch:st)
@@ -64,7 +65,7 @@ void suggestions(struct trie*root,string currprefix)
 	{
 		cout<<currprefix;
 		cout<<endl;
-		return;
+	//	return;                            why???
 	}
 	
 	if(islastnode(root))
@@ -93,12 +94,13 @@ int autocomplete(struct trie*root,string query)
 	int lv;
 	int n=query.length();
 	for(lv=0;lv<n;lv++)
-	{
-		if(!curr->children[query[lv]-'a'])
+	{   
+	      int index=query[lv]-'a';
+		if(!curr->children[index])
 		{
 			return 0;
 		}
-		curr=curr->children[query[lv]-'a'];
+		curr=curr->children[index];
 	}
 	
 	
@@ -126,14 +128,16 @@ int autocomplete(struct trie*root,string query)
 int  main()
 {
 	
-	root=new trie();
+	struct trie*root=new trie();
 	
-	insert("fight");
-	insert("light");
-	insert("fighter");
-	insert("fig");
-	insert("fit");
+	insert(root,"fight");
+	insert(root,"light");
+	insert(root,"fighter");
+	insert(root,"fig");
+	insert(root,"fit");
 	
+	
+	//cout<<found(root,"fighter");	
 	autocomplete(root,"fi");
 //	cout<<found("fight");
 //	cout<<found("sight");
