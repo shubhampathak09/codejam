@@ -79,7 +79,7 @@ bool checkbst(struct node*root)
 
 int main()
 {
-	struct node*root=new node(0);
+	struct node*root=new node(1);  // works when node is zero ->false;
 	
 	root->left=new node(2);
 	
