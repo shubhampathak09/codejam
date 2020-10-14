@@ -22,7 +22,7 @@ struct trie
 
 struct trie*root;
 
-void insert(string str)
+void insert(string str,struct trie*root)
 {
 	
 	struct trie* curr=root;
@@ -60,48 +60,48 @@ bool issafe(int i,int j,bool visited[M][N])
 	return false;
 }
 
-void searchword(char boggle[M][N],int i,int j,string str,bool visited[M][N])
+void searchword(struct trie*root,char boggle[M][N],int i,int j,string str,bool visited[M][N])
 {
-	struct trie*curr=root;
+//	struct trie*curr=root;
 	
-	if(curr->isend)
+	if(root->isend)
 	{
-		cout<<str;
+		cout<<str<<endl;
 	}
 	
 	if(issafe(i,j,visited))
 	{
 		visited[i][j]=true;
 		
-		for(int i=0;i<26;i++)
+		for(int k=0;k<26;k++)
 		{
-			if(curr->child[i])
+			if(root->child[k])
 			{
-				char ch=(char)i +(char)'A';
+				char ch=(char)k +(char)'A';
 				
 				if(issafe(i+1,j,visited)&&boggle[i+1][j]==ch)
-				searchword(boggle,i+1,j,str+ch,visited);
+				searchword(root->child[k],boggle,i+1,j,str+ch,visited);
 				
 				if(issafe(i+1,j+1,visited)&&boggle[i+1][j+1]==ch)
-				searchword(boggle,i+1,j+1,str+ch,visited);
+				searchword(root->child[k],boggle,i+1,j+1,str+ch,visited);
 				
 				if(issafe(i,j+1,visited)&&boggle[i][j+1]==ch)
-				searchword(boggle,i+1,j+1,str+ch,visited);
+				searchword(root->child[k],boggle,i+1,j+1,str+ch,visited);
 				
 				if(issafe(i-1,j+1,visited)&&boggle[i-1][j+1]==ch)
-				searchword(boggle,i-1,j+1,str+ch,visited);
+				searchword(root->child[k],boggle,i-1,j+1,str+ch,visited);
 				
 				if(issafe(i-1,j,visited)&&boggle[i-1][j]==ch)
-				searchword(boggle,i-1,j,str+ch,visited);
+				searchword(root->child[k],boggle,i-1,j,str+ch,visited);
 				
 				if(issafe(i,j-1,visited)&&boggle[i][j-1]==ch)
-				searchword(boggle,i,j-1,str+ch,visited);
+				searchword(root->child[k],boggle,i,j-1,str+ch,visited);
 				
 				if(issafe(i+1,j-1,visited)&&boggle[i+1][j-1]==ch)
-				searchword(boggle,i+1,j-1,str+ch,visited);
+				searchword(root->child[k],boggle,i+1,j-1,str+ch,visited);
 				
 				if(issafe(i-1,j-1,visited)&&boggle[i-1][j-1]==ch)
-				searchword(boggle,i-1,j-1,str+ch,visited);
+				searchword(root->child[k],boggle,i-1,j-1,str+ch,visited);
 				
 			}
 		}
@@ -117,9 +117,9 @@ void searchword(char boggle[M][N],int i,int j,string str,bool visited[M][N])
 
 
 
-void findwords(char boggle[M][N])
+void findwords(char boggle[M][N],struct trie*root)
 {
-	struct trie*curr=root;
+//	struct trie*curr=root;
 	
 	bool visited[M][N];
 	
@@ -131,10 +131,10 @@ void findwords(char boggle[M][N])
 		for(int j=0;j<N;j++)
 		{
 			int inx=boggle[i][j]-'a';
-			if(curr->child[inx])
+			if(root->child[inx])
 			{
 				str+=boggle[i][j];
-				searchword(boggle,i,j,str,visited);
+				searchword(root->child[inx],boggle,i,j,str,visited);
 				str="";
 			}
 		}
@@ -157,9 +157,9 @@ int main()
 	root=new trie();
 	
 	for(auto x:dictionary)
-	insert(x);
+	insert(x,root);
 	
-	findwords(boggle);
+	findwords(boggle,root);
 	
 	//cout<<search("cdvfv");
 	//cout<<search("GEEKS");
