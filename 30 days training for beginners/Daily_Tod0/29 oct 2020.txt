@@ -1,0 +1,12 @@
+-segment rees point updates rmq,sum in interval
+-impl in java /c++
+-see goto microservice event loops
+-do some questions like tarjans,kosaraju 
+-javascript make corrections in recipe app,correct the javascript codoe for fetch
+-complete online binary search lecture
+-do some problems like stock span,best time buy sell stock and histogram problem
+- revist water graph problem and check the check problem
+-revisit seven segment display
+-try to provide these in new folder in 29th OCT 2020
+-revise the dp topics(impl optional)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
