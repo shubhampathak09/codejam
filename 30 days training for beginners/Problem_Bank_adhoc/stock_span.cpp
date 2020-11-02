@@ -1,6 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+
+// nice use break a classic problem to understand break in detail
+
 vector<int> stockspan(vector<int>a)
 {
 	int n=a.size();
