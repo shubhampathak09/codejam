@@ -41,3 +41,20 @@ int main()
 	
 	cout<<optimalWeight;
 }
+
+
+
+
+//recursive impls
+/*
+int knapsack(int val[],int wt[],int n,int W)
+{
+	if(n==0||W==0)
+	return 0;
+	
+	if(wt[n-1]>W)
+	return knapsack(val,wt[],n-1,W);
+	
+	return max(knapsack(val,wt,n-1,W),val[n-1]+knapsack(val,wt,n-1,W-wt[n-1]));
+	
+}*/

@@ -23,7 +23,7 @@ int main()
 	head->next->next->next->next=new node(1);
 	head->next->next->next->next->next=new node(1);
 	head->next->next->next->next->next->next=new node(0);
-	head->next->next->next->next->next->next->next=new node(1);    // 10001101  //128+16+8+1=153 
+	head->next->next->next->next->next->next->next=new node(1);     
 	
 	int result=0;
 	struct node*temp=head;

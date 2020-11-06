@@ -1,3 +1,15 @@
+
+//I/O
+/*
+
+5
+1 1
+2 2
+2 3
+2 4
+2 5
+1       5       6       9       10      12      13      14      15
+*/
 // optimal cost of knapsack
 #include<bits/stdc++.h>
 using namespace std;
