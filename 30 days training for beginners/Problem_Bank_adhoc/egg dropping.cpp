@@ -6,11 +6,17 @@ using namespace std;
 
 int solve(int e,int f)
 {
+	int dp[e+1][f+1];
+	memset(dp,-1,sizeof(dp));
+	
+	if(dp[e][f]!=-1)
+	return dp[e][f];
+	
 	if(f==1||f==0)
-	return f;
+	return dp[e][f]=f;
 	
 	if(e==1)
-	return f;
+	return dp[e][f]=f;
 	
 	// drop from kth floor and fin min attempts
     int mn=INT_MAX;
@@ -25,13 +31,13 @@ int solve(int e,int f)
 	    mn=min(mn,temp);	
 	}
 	
-	return mn;
+	return dp[e][f]=mn;
 }
 
 int main()
 {
 
-cout<<solve(2,10);	
+cout<<solve(4,15);	
 	
 }
 
