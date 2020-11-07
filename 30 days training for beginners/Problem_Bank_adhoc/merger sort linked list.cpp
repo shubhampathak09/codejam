@@ -25,22 +25,27 @@ struct node*merge_process(struct node*head1,struct node*head2)
 		if(head1->data<head2->data)
 		{
 		
-		curr->next=new node(head1->data);
+		curr->next=head1;
 		head1=head1->next;
 	}
 	else
 	{
-		curr->next=new node(head2->data);
+		//curr->next=new node(head2->data)
+		curr->next=head2;
 		head2=head2->next;
 	}
+	curr=curr->next;
 	}
 	while(head1!=NULL){
-		curr->next=new node(head1->data);
+		curr->next=head1;
 		head1=head1->next;
+		curr=curr->next;
 	}
 	while(head2!=NULL){
-		curr->next=new node(head2->data);
+		//curr->next=new node(head2->data);
+		curr->next=head2;
 		head2=head2->next;
+		curr=curr->next;
 	}
 	
 	return sorted_temp->next;
@@ -90,9 +95,9 @@ void print(struct node*list)
 int main()
 {
 	
-	struct node*head=new node(1);
-	head->next=new node(2);
-	head->next->next=new node(4);
+	struct node*head=new node(2);
+	head->next=new node(1);
+	head->next->next=new node(3);
 //	head->next->next->next=new node(5);
 	struct node*temp=merger(head);
 	
