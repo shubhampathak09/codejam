@@ -18,6 +18,9 @@ struct node
 	}
 };
 
+//2 1 3
+// 2 3 1
+
 void inorder(struct node*root)
 {
 	if(root==NULL)

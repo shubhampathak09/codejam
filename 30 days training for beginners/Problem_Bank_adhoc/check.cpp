@@ -13,5 +13,5 @@ int main()
 	 temp=board[i].find('k');
 	 cout<<temp;
 	 } 
-	
-}
+	//  2 3 4
+} j  
