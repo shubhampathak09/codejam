@@ -9,15 +9,19 @@
 -revisit seven segment display
 -try to provide these in new folder in 29th OCT 2020
 -revise the dp topics(impl optional)
--------------------------------------------------------------------------------------------------------------------
-------------------------------------------
-03 nov
--Mix-Matcg game complete
--Linked List insertion sort
--dp problems_make notes
--binary search first +last element +koko banans
--segment trees
--treaps?
--min path dp problems and miners puzzle
--trie revisit
-------------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+-----------------
+6 nov=8 nov
+- practice dp 10-15 new problems-
+--finish javscript project halloween game
+--lisp- truing machines
+--leet code +binarysearch
+--intro to apis -hameoff 2020
+--visite top github contributors project in india
+--view google repositur on git hub for more to dp
+-- read patterns and designs
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+
