@@ -21,7 +21,7 @@ bool isidentical(struct node*n1,struct node*n2)
 	
 	if(n1==NULL&&n2==NULL)
 	return true;
-    	if(n1==NULL&&n2!=NULL)
+    if(n1==NULL&&n2!=NULL)
 	return 0;
 	
 	if(n1!=NULL&&n2==NULL)
