@@ -5,7 +5,7 @@
 -javascript make corrections in recipe app,correct the javascript codoe for fetch
 -complete online binary search lecture
 -do some problems like stock span,best time buy sell stock and histogram problem
-- revist water graph problem and check the check problem
+- revist water graph problem and check the check problem water bfs atoj
 -revisit seven segment display
 -try to provide these in new folder in 29th OCT 2020
 -revise the dp topics(impl optional)
@@ -23,5 +23,15 @@
 -- read patterns and designs
 
 --------------------------------------------------------------------------------------------------------------------------------------
+
+Lets follow this pattern 10-17 nov
+1.think on trie
+2.think on optimisation dp max out of min out of max refer the topcoder
+3.optimisation dp-2 egg dropping problems
+4.graph dag cycle in directed /unidirected,longest path->dijkstras negtive path think
+5.np complete,hamiltonian path,tsp,euclid path,circuit etc think?
+----------------------------------------------------------------------------------------------------------------------------------------- 
+http://codeforces.com/blog/entry/20861
+https://codeforces.com/blog/entry/57282
 
 
