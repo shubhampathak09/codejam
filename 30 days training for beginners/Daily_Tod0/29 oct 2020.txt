@@ -34,4 +34,30 @@ Lets follow this pattern 10-17 nov
 http://codeforces.com/blog/entry/20861
 https://codeforces.com/blog/entry/57282
 
+0-1 knaqpsack-6
+unbound knapsakc -6
+fibonacci-7
+lcs 15
+lis 10
+kandanes algo -5
+mcm-7
+dp on trees 4
+dp on grids 14
+others
+-------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
