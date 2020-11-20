@@ -43,7 +43,7 @@ int main()
 	
 	if(sum&1)
 	{
-		cout<<"equal partiton not possible";
+		cout<<"equal partiton not possible as number of elements are odd";
 	}
 	
 	else

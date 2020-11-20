@@ -1,6 +1,25 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+/*
+3
+2
+-1 5
+1 5
+10
+3
+-2 2
+1 4
+-1 3
+9
+3
+1 9
+3 5
+7 10
+9
+*/
+
+
 void solve()
 {
 	

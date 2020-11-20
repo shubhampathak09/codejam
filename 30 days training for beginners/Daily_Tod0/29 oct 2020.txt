@@ -45,7 +45,7 @@ dp on trees 4
 dp on grids 14
 others
 -------------------------------
-
+pract around 300 prob randomly
 
 
 

@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-
+// will check later for better impl
 
 
 bool check(int x, vector<int>temp)
