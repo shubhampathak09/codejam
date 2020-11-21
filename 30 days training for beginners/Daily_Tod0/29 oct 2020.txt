@@ -46,7 +46,61 @@ dp on grids 14
 others
 -------------------------------
 pract around 300 prob randomly
+-------------------------------------------------
+subset sum problem  done bool and count both
+subset sum divisble by m
+largest divisible pair subset
+perfect sum problem
+ncr%p
+cutting rod
+choice of area
+tilling with dominoes
+--------------------------------------------------
 
+other problems:-
+-count number of binary tree possible given preorder
+sequenec length
+-Maximum subsquare with sides as x
+sum query in 2d immutable array
+numbers without consecutive ones in binary representation
+coin change top down dp
+longest biotnic subsequence
+0/1 knap sack problem
+top down dp
+total ways in matrix dp
+count number of binary searc trees possobible given n keys
+string interleaving
+maximum sum subsequence non adjacent
+maximum sum increaseinf subseuence
+stair case problem fibonacci
+burst ballon problem
+box stacking dp
+maximum sub square matrix
+palindrome partition dp
+optimal strategy game pick from ends
+text justification problem
+wildcard mattching problem
+minimumcost path dp
+minimum jumo to reach end
+buy sell stock witj k transafctios
+word break dp
+lcs
+weighted job scheduling dp
+longest common substring
+maximum size rectangle of all ones dp
+maximum sum rectrangular submatrix dp
+egg dropping
+coinf change number of ways to get total sukm
+coin change minimum number of coins required
+regular expression dp
+cutting rod dp
+longest palindromic subsewqunce
+optimal bst
+minim edit distance
+subset sum problem
+target sum
+scrambled strings
+painters partiton problem
 
 
 
