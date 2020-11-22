@@ -43,7 +43,7 @@ int main()
    int target=(diff+sum)/2;
    
   // cout<<target;
-   cout<<endl;
+  // cout<<endl;
    
    cout<<targetsum(a,n,target);
    	

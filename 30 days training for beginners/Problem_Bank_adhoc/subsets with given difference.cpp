@@ -39,5 +39,7 @@ int main()
 	ios::sync_with_stdio(0);
 	cin.tie(0);
 	cout<<1;
+	
+	// something weird goin on getting ouptut of some other code
 }
  
