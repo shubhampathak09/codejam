@@ -102,7 +102,27 @@ target sum
 scrambled strings
 painters partiton problem
 
-
+--------------------------------------------------------------------------------------------------
+digit dp blogs
+Problem List
+Investigation
+LIDS
+Magic Numbers
+Palindromic Numbers
+Chef and Digits
+Maximum Product
+Cantor
+Digit Count
+Logan and DIGIT IMMUNE numbers
+Sanvi and Magical Numbers
+Sum of Digits
+Digit Sum
+Ra-One Numbers
+LUCIFER Number
+369 Numbers
+Chef and special numbers
+Perfect Number
+The Great Ninja War
 
 
 
