@@ -7,3 +7,5 @@ Created on Mon Nov 23 19:00:14 2020
 
 
 #n queens problem
+
+def _printsolution(a)

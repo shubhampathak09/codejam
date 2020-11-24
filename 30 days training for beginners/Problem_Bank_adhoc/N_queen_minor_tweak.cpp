@@ -1,7 +1,7 @@
-#include<bits/stdc+ +.h>
+#include<bits/stdc++.h>
 using namespace std;
 
-#define N 8
+#define N 4
 
 int board[N][N];
 
