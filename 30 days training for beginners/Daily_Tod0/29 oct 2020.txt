@@ -125,8 +125,21 @@ Perfect Number
 The Great Ninja War
 
 
+/before 2021-> cses problem sets 150 questions, complete halloween js, do atlesat 2 pop flor/
 
-
+// lnked list
+reverse
+reverse k lelemts
+merger sport ll
+insertion sort ll
+reverse using address
+xor linked list
+circular linnksed
+double linked list
+reverse
+khayade
+leet code lnked list
+clone ll random and next pointets
 
 
 
