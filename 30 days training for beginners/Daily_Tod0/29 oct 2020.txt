@@ -146,7 +146,20 @@ clone ll random and next pointets
 28 nov -> range sum queryy implemented seg trees
 
 
-
+Finger tree
+Link/cut tree
+Scapegoat tree
+Zipper (data structure)
+Trees
+Tree rotation
+AVL tree
+B-tree
+T-tree
+List of data structures
+Iacono's working set structure
+Geometry of binary search trees
+Splaysort, a sorting algorithm using splay trees
+Treap
 
 
 
