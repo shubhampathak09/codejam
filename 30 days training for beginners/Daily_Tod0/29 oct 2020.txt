@@ -1,11 +1,11 @@
--segment rees point updates rmq,sum in interval
+-segment rees point updates vvi rmq,sum in interval withoud updates
 -impl in java /c++
--see goto microservice event loops
+-see goto microservice event loops :net flix arcitrcture,chaos monkey
 -do some questions like tarjans,kosaraju 
 -javascript make corrections in recipe app,correct the javascript codoe for fetch
 -complete online binary search lecture
 -do some problems like stock span,best time buy sell stock and histogram problem
-- revist water graph problem and check the check problem water bfs atoj
+- revist water graph problem and check the check problem water bfs atoj->bellman ford
 -revisit seven segment display
 -try to provide these in new folder in 29th OCT 2020
 -revise the dp topics(impl optional)
@@ -17,7 +17,7 @@
 --finish javscript project halloween game
 --lisp- truing machines
 --leet code +binarysearch
---intro to apis -hameoff 2020
+--intro to apis -gameoff 2020
 --visite top github contributors project in india
 --view google repositur on git hub for more to dp
 -- read patterns and designs
@@ -30,6 +30,7 @@ Lets follow this pattern 10-17 nov
 3.optimisation dp-2 egg dropping problems
 4.graph dag cycle in directed /unidirected,longest path->dijkstras negtive path think
 5.np complete,hamiltonian path,tsp,euclid path,circuit etc think?
+6.Sparse trees
 ----------------------------------------------------------------------------------------------------------------------------------------- 
 http://codeforces.com/blog/entry/20861
 https://codeforces.com/blog/entry/57282
@@ -141,7 +142,8 @@ khayade
 leet code lnked list
 clone ll random and next pointets
 
-
+-------------------------------------------
+28 nov -> range sum queryy implemented seg trees
 
 
 
