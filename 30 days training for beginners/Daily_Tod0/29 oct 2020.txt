@@ -17,7 +17,7 @@
 --finish javscript project halloween game
 --lisp- truing machines
 --leet code +binarysearch
---intro to apis -gameoff 2020
+--intro to apis -gameoff 2020mgo to codeagame.com and code
 --visite top github contributors project in india
 --view google repositur on git hub for more to dp
 -- read patterns and designs
