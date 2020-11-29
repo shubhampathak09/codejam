@@ -24,7 +24,7 @@ int main()
 	{
 		for(int j=0;j<i;j++)
 		{
-			if(j+a[j]>=i)
+			if(i<=j+a[j])
 			{
 				min_jumps[i]=min(min_jumps[i],min_jumps[j]+1);
 			}

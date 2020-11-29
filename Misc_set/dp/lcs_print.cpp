@@ -1,11 +1,13 @@
 // printing lcs
+
 #include<bits/stdc++.h>
 using namespace std;
 
-
-string lcs(string s1,string s2)
+void lcs(string s1,string s2)
 {
+	
 	int n=s1.length();
+	
 	int m=s2.length();
 	
 	int dp[n+1][m+1];
@@ -16,22 +18,24 @@ string lcs(string s1,string s2)
 		{
 			if(i==0||j==0)
 			dp[i][j]=0;
+			
 			else if(s1[i-1]==s2[j-1])
-			dp[i][j]=1+dp[i-1][j-1];
+			{
+				dp[i][j]=1+dp[i-1][j-1];
+			}
 			else
 			dp[i][j]=max(dp[i-1][j],dp[i][j-1]);
 		}
 	}
 	
-	int index=dp[n][m];
-	
 	int i=n,j=m;
-	string str;
-	while(i>0&&j>0)
+	string s="";
+	while(i>=0&&j>=0)
 	{
+		
 		if(s1[i-1]==s2[j-1])
 		{
-			str.push_back(s1[i-1]);
+			s.push_back(s1[i-1]);
 			i--;
 			j--;
 		}
@@ -42,16 +46,21 @@ string lcs(string s1,string s2)
 		else
 		j--;
 	}
+	reverse(s.begin(),s.end());
+	cout<<s;
 	
-	reverse(str.begin(),str.end());
-	return str;
 }
 
 int main()
 {
 	
-	string s1="abbbcd";
-	string s2="bdef";
+	string s1="asdfcxed";
 	
-	cout<<lcs(s1,s2);
+    string s2="asdsdw";
+    
+    int n=s1.length();
+    
+    int m=s2.length();
+	
+	lcs(s1,s2);
 }
