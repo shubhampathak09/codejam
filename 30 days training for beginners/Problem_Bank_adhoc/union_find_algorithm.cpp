@@ -109,3 +109,25 @@ struct graph
 	  
  
   } 
+  
+  
+  kniave impl
+  
+  int find(int parent[],int i)
+  {
+  	if(parent[i]==-1)
+  	return i;
+  	
+  	return find(parent[],parent[i]);
+  	
+  }
+  
+  void union(int parent[],int x,int y)
+  {
+  	
+  	int p1=find(parent[],x);
+  	int p2=find(parent[],y);
+  	
+  	parent[p1]=p2;
+  	
+  }

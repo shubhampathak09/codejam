@@ -160,6 +160,77 @@ Iacono's working set structure
 Geometry of binary search trees
 Splaysort, a sorting algorithm using splay trees
 Treap
+-----------------------------------------------------------
+3 months guide
 
 
 
+Course Content
+
+  Introduction
+  Mathematics
+  Bit Magic
+Bitwise Operators in C++
+
+Operation of AND, OR, XOR operators
+
+Operation of Left Shift, Right Shift and Bitwise Not
+
+Bitwise Operators in Java
+
+Operation of AND, OR
+
+Operation of Bitwise Not, Left Shift
+
+Operation of Right Shift and unsigned Right Shift
+
+Problem(With Video Solutions): Check Kth bit is set or not
+
+Method 1: Using the left Shift.
+
+Method 2: Using the right shift
+
+Problem(With Video Solutions): Count Set Bits
+
+Method 1: Simple method
+
+Method 2: Brian and Kerningham Algorithm
+
+Method 3: Using Lookup Table
+
+Problems(With Video Solutions):
+
+To check whether a number is a power of 2 or not
+
+Odd occurrences in an array.
+
+Two numbers having odd occurrences in an array.
+
+Generate power set using bitwise operators.
+
+Practice Problems
+
+This track contains many practice problems for the users which are considered important and must-do as far as Data Structure and Algorithm is concerned.
+
+  Recursion
+  Arrays
+  Searching
+  Sorting
+  Matrix
+  Hashing
+  Strings
+  Linked List
+  Stack
+  Queue
+  Deque
+  Tree
+  Binary Search Tree
+  Heap
+  Graph
+  Greedy
+  Backtracking
+  Dynamic Programming
+  Trie          20 *21=420
+  Segment Tree  20
+  Disjoint Set  20
+Show Less
