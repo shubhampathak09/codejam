@@ -53,4 +53,4 @@ int main()
 	int m=s2.length();	
 	cout<<minedistance(s1,s2,n,m);
 	
-}
+} 

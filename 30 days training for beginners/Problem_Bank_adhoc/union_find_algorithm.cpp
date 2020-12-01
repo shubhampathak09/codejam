@@ -110,7 +110,7 @@ struct graph
  
   } 
   
-  
+  /*
   kniave impl
   
   int find(int parent[],int i)
@@ -131,3 +131,4 @@ struct graph
   	parent[p1]=p2;
   	
   }
+  */

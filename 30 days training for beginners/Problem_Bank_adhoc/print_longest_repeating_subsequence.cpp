@@ -52,5 +52,7 @@ int main()
 
 string s="AABEBCDD";
  	
-cout<<print_longest_repeat(s,s);	
+cout<<print_longest_repeat(s,s);
+
+	
 }
