@@ -35,5 +35,8 @@ int main()
 	int n=sizeof(nums)/sizeof(nums[0]);
 	
 	cout<<jumps_end(nums,n);
+	// just yes or no
+	// still gives tle for large inpiuts
+	//further optimisation req
 	
 }

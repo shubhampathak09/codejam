@@ -1,6 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+
+// a classic problem on knapsack
+
 int dp[100][100];
 int colorfulknapsack(vector<vector<int>>&colormat,int i,int m ,vector<int>&wt,int kswt,int x)
 {
