@@ -55,7 +55,7 @@
 //	root->inorder(root); // traversal
 //	}	
 
-
+// what about deletion
 #include<bits/stdc++.h>
 using namespace std;
 
