@@ -1,5 +1,5 @@
 // bruteforce way to generate all subsets
-
+//ok
 #include<bits/stdc++.h>
 using namespace std;
 
