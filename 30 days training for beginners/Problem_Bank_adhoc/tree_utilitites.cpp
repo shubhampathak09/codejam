@@ -109,3 +109,26 @@ int main()
 
 	n.printnode(head);	
 }
+
+// Pseudocode for left
+/*
+q.push(root->data);
+
+while(!q.empty())
+{
+	int sz=q.front();
+	for(int i=1;i<=sz;i++)
+	{
+		struct node*temp=q.front();
+		q.pop();
+		if(i==1)
+		{
+		 cout<<temp->data;
+		}
+		if(temp->left)
+		q.push(temp->left);
+		if(temp->right)
+		q.push(temp->right);
+	}
+}
+*/
