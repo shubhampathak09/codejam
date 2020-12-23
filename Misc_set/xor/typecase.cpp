@@ -9,7 +9,7 @@ int main()
 	
 	int n=97;
 	 n=96;
-	cout<<char n;
+	cout<<char(n);
 	
 	
 	
